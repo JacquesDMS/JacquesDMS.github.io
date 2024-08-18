@@ -10,11 +10,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <title>Home</title>
+  <title>Contact</title>
   <link rel="icon" href="assets/images/DMSLogoA.png" type="image/x-icon">
 
   <!-- Main CSS Files -->
-  <link href="cover.css" rel="stylesheet">
+  <link href="services.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
 </head>
@@ -50,46 +50,100 @@
 
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <div class = "row first-row">
-        <div class = "col-12 col-lg-6">
-          <!-- <img src="assets/images/Home1.png" class="img-fluid"> -->
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/DMSLogoA.png" class="d-block w-100" alt="...">
+      <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <section>
+        <h2>What We Offer</h2>
+        <div class="services-container">
+
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3NDc1&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        Product Development
+                    </div>
+                    <div class="service-card-back">
+                        <p>We specialize in turning your ideas into reality, from concept to production, ensuring high-quality products every time.</p>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/images/CAM.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/CFD.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/images/Home1.png" class="d-block w-100" alt="...">
-              </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1581092321903-99c9da7769e1?auto=format&fit=crop&w=500&q=60');">
+                        CAE
+                    </div>
+                    <div class="service-card-back">
+                        <p>Our Computer-Aided Engineering services provide detailed simulations to optimize your designs before manufacturing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1527433832220-572ae6c40f83?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3NjE3&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        5S Manufacturing
+                    </div>
+                    <div class="service-card-back">
+                        <p>Implementing 5S principles to improve workplace efficiency, reduce waste, and enhance quality in your manufacturing processes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1562073456-9a3b5f787f92?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3NzI0&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        Prototyping
+                    </div>
+                    <div class="service-card-back">
+                        <p>Rapid prototyping services to bring your designs to life quickly and effectively, helping you move from concept to market faster.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3Nzk1&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        Mechanical Engineering
+                    </div>
+                    <div class="service-card-back">
+                        <p>Providing expert mechanical engineering solutions for a wide range of applications, ensuring functionality and reliability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1581092321903-99c9da7769e1?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3ODQ2&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        Mechatronic Engineering
+                    </div>
+                    <div class="service-card-back">
+                        <p>Combining mechanical and electronic engineering to deliver innovative mechatronic systems that meet modern challenges.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="service-card">
+                <div class="service-card-inner">
+                    <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1591845987455-6cc35b1e7e53?ixid=MnwyMzI2NjB8MHwxfGFsbHwxfHx8fHx8fHwxNjA2Mjg3OTYw&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                        Problem Solving
+                    </div>
+                    <div class="service-card-back">
+                        <p>Expert problem-solving services to address complex engineering challenges, offering creative and effective solutions.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        </div>
-        <div class = "col-12 col-lg-6">
-          <h2>Development & Manufacturing Solutions</h2>
-          <h3><span class="typed" data-typed-items="Computer Aided Engineering, Product Development, 5S Manufacturing, Design to Scale, Problem Solving"></span></h3>     
-          <p>Strength in Every Solution, Excellence in Every Step</p>
-        </div>
-      </div>
+    </section>
       <div class = "row">
         <footer class="site-footer">
           <div class="container">
@@ -156,6 +210,7 @@
   <!-- Template Main JS File -->
   <script src="index.js"></script>
   <script src="typejs.js"></script>
+  <script src="services.js"></script>
 
   
 </html>
